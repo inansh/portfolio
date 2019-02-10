@@ -1,0 +1,39 @@
+/*--------------------CONTACT----------------*/
+#contact
+{
+    
+    background-image: linear-gradient(rgba(126, 63, 94, 0.979),rgba(119, 78, 97, 0.815)), url(../img/2.jpg);
+    background-size: 100%;
+    background-position: right;
+    background-attachment: fixed;
+    padding: 100px; 
+   text-align: center;
+    color: #fff;
+    
+}
+
+#contact h1
+{
+    font-weight: bold;
+    
+     
+}
+
+#contact .icon
+{
+    font-size: 50px;
+}
+#contact .icon .fa
+{
+    padding: 5px;
+    
+}
+#contact .icon :hover
+{
+    color: #007bff!important;
+}
+
+#contact p :hover
+{
+    color: #007bff!important;
+}

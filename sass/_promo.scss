@@ -1,0 +1,53 @@
+/*----------------PROMO----------------*/
+#promo
+{
+    background-image: linear-gradient(rgba(51, 100, 112, 0.925),rgba(26, 116, 108, 0.836)), url(../img/1.jpg);
+    background-size: 100%;
+    background-position: right;
+    color: rgba(243, 239, 239, 0.76);
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom: 330px;
+    font-family: sans-serif;
+    
+}
+#promo .icon
+{
+    font-size: 50px;
+}
+#promo .icon .fa
+{
+    margin-top: 50px;
+    padding: 10px;
+    
+}
+#promo .icon :hover
+{
+    color: #007bff!important;
+}
+#promo .contact a
+{
+   
+  
+   text-align: center;
+   
+   color: rgba(27, 26, 26, 0.692);
+   font-size: 30px;
+   
+  
+  
+   background: rgba(255, 255, 255, 0.411);
+   border-radius: 5px;  
+   padding: 15px;
+   font-weight: 600; 
+   
+   
+}
+
+#promo .contact a:hover
+{
+    color: rgba(184, 187, 206, 0.945);
+    background: rgba(0, 0, 0, 0.548);
+}
+

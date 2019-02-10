@@ -1,0 +1,32 @@
+/*----------------ABOUT---------------------*/
+#about
+{
+    
+    background-image: linear-gradient(rgba(78, 112, 91, 0.692),rgba(52, 114, 85, 0.699)), url(../img/3.jpg);
+    background-size: 100%;
+    background-position: right;
+    background-attachment: fixed;
+    padding: 100px;
+    
+    
+    
+}
+.about-content
+{
+    font-weight: bold; 
+    color: rgba(243, 241, 241, 0.842); 
+    text-align: center;  
+}
+
+.about-content h1{font-weight: bold;}
+
+.about-content a
+{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.658);
+    border: rgba(0, 0, 0, 0.671);
+    border-width: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.479);
+   
+}

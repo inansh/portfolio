@@ -1,0 +1,154 @@
+@header-color :red;
+@nav-color :#ccc;
+@promo-bgcolor :rgba(51, 100, 112, 0.925);
+section#nav-bar {
+  color: red;
+  position: fixed !important;
+  top: 0;
+  z-index: 10;
+}
+
+section#nav-bar .navbar .navbar-brand {
+  height: 150px;
+  width: 150px;
+  padding-left: 30px;
+}
+
+section#nav-bar .navbar .navbar-nav li {
+  padding: 0 10px;
+}
+
+section#nav-bar .navbar .navbar-nav li a:hover {
+  color: rgba(0, 128, 96, 0.904) !important;
+}
+
+/*----------------PROMO----------------*/
+#promo {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(51, 100, 112, 0.925)), to(rgba(26, 116, 108, 0.836))), url(../img/1.jpg);
+  background-image: linear-gradient(rgba(51, 100, 112, 0.925), rgba(26, 116, 108, 0.836)), url(../img/1.jpg);
+  background-size: 100%;
+  background-position: right;
+  color: rgba(243, 239, 239, 0.76);
+  background-attachment: fixed;
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 330px;
+  font-family: sans-serif;
+}
+
+#promo .icon {
+  font-size: 50px;
+}
+
+#promo .icon .fa {
+  margin-top: 50px;
+  padding: 10px;
+}
+
+#promo .icon :hover {
+  color: #007bff !important;
+}
+
+#promo .contact a {
+  text-align: center;
+  color: rgba(27, 26, 26, 0.692);
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.411);
+  border-radius: 5px;
+  padding: 15px;
+  font-weight: 600;
+}
+
+#promo .contact a:hover {
+  color: rgba(184, 187, 206, 0.945);
+  background: rgba(0, 0, 0, 0.548);
+}
+
+/*----------------ABOUT---------------------*/
+#about {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(78, 112, 91, 0.692)), to(rgba(52, 114, 85, 0.699))), url(../img/3.jpg);
+  background-image: linear-gradient(rgba(78, 112, 91, 0.692), rgba(52, 114, 85, 0.699)), url(../img/3.jpg);
+  background-size: 100%;
+  background-position: right;
+  background-attachment: fixed;
+  padding: 100px;
+}
+
+.about-content {
+  font-weight: bold;
+  color: rgba(243, 241, 241, 0.842);
+  text-align: center;
+}
+
+.about-content h1 {
+  font-weight: bold;
+}
+
+.about-content a {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.658);
+  border: rgba(0, 0, 0, 0.671);
+  border-width: 5px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+/*-----------PORTFOLIO-----------------*/
+#portfolio {
+  font-weight: bold;
+  padding: 100px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(117, 113, 53, 0.986)), to(rgba(113, 126, 67, 0.932))), url(../img/5.jpg);
+  background-image: linear-gradient(rgba(117, 113, 53, 0.986), rgba(113, 126, 67, 0.932)), url(../img/5.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*--------------------CONTACT----------------*/
+#contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(126, 63, 94, 0.979)), to(rgba(119, 78, 97, 0.815))), url(../img/2.jpg);
+  background-image: linear-gradient(rgba(126, 63, 94, 0.979), rgba(119, 78, 97, 0.815)), url(../img/2.jpg);
+  background-size: 100%;
+  background-position: right;
+  background-attachment: fixed;
+  padding: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+#contact h1 {
+  font-weight: bold;
+}
+
+#contact .icon {
+  font-size: 50px;
+}
+
+#contact .icon .fa {
+  padding: 5px;
+}
+
+#contact .icon :hover {
+  color: #007bff !important;
+}
+
+#contact p :hover {
+  color: #007bff !important;
+}
+
+/*---------FOOTER------------*/
+#footer {
+  text-align: center;
+  padding: 30px;
+  color: #fff;
+  font-weight: bold;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(117, 53, 85, 0.438)), to(rgba(126, 71, 75, 0.267))), url(../img/4.jpg);
+  background-image: linear-gradient(rgba(117, 53, 85, 0.438), rgba(126, 71, 75, 0.267)), url(../img/4.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+/*# sourceMappingURL=style.css.map */
